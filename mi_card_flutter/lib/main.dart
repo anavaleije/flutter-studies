@@ -60,6 +60,25 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Container(
+                      color: Colors.white,
+                      margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                      padding: EdgeInsets.all(10.0),
+                      child: Row(
+                        children: <Widget>[
+                          Icon(Icons.email),
+                          SizedBox(width: 10),
+                          Text(
+                            'ana.valeije@blabla.com',
+                            style: TextStyle(
+                              color: Colors.teal.shade900,
+                              fontFamily: 'Source Sans Pro',
+                              fontSize: 20.0,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ],
